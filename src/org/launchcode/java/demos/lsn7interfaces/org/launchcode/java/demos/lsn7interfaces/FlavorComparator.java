@@ -1,0 +1,14 @@
+package org.launchcode.java.demos.lsn7interfaces;
+
+import java.util.Comparator;
+import org.launchcode.java.demos.lsn7interfaces.Flavor;
+
+public class FlavorComparator implements Comparator<Flavor> {
+    @Override
+    public int compare(Flavor flavor1, Flavor flavor2) {
+        return flavor1.getName().compareTo(flavor2.getName());
+    }
+
+
+    //FlavorComparator flavorComparator = new FlavorComparator();
+}
